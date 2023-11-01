@@ -287,7 +287,127 @@ html body {
   line-height: normal;
 }
 
+@media only screen and (max-width: 320px) {
+  .header {
+    flex-direction: column;
+    padding: 0;
+  }
+  .header .logo {
+    line-height: 0.5rem;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .header .logo h2 {
+    font-size: 22px;
+  }
+  .header .logo p {
+    font-size: 14px;
+  }
+  .header .divider {
+    margin: 20px auto;
+    height: 1px;
+    background-color: var(--height-color);
+    width: 85%;
+  }
+  .header .btn {
+    width: 95%;
+    margin: 0 auto;
+    gap: 130px;
+  }
+  .header .btn .theme-toggle {
+    position: relative;
+    top: 1px;
+  }
+  .main .sec-1 #box1 {
+    gap: 15px;
+  }
+  .main .sec-1 #box1 .newDiv {
+    width: 95%;
+  }
+  .main .sec-2 .header2 {
+    font-size: 14px;
+  }
+  .main .sec-2 #fcset1 .contDiv {
+    width: 95%;
+  }
+}
 @media only screen and (max-width: 375px) {
+  .header {
+    flex-direction: column;
+    padding: 0;
+  }
+  .header .logo {
+    line-height: 0.5rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header .logo h2 {
+    font-size: 22px;
+  }
+  .header .logo p {
+    font-size: 14px;
+  }
+  .header .divider {
+    margin: 20px auto;
+    height: 1px;
+    background-color: var(--height-color);
+    width: 75%;
+  }
+  .header .btn {
+    width: 80%;
+    margin: 0 auto;
+    gap: 130px;
+  }
+  .header .btn .theme-toggle {
+    position: relative;
+    top: 1px;
+  }
+  .main .sec-1 #box1 {
+    gap: 15px;
+  }
+  .main .sec-2 .header2 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .header {
+    flex-direction: column;
+    padding: 0;
+  }
+  .header .logo {
+    line-height: 0.5rem;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .header .logo h2 {
+    font-size: 22px;
+  }
+  .header .logo p {
+    font-size: 14px;
+  }
+  .header .divider {
+    margin: 20px auto;
+    height: 1px;
+    background-color: var(--height-color);
+    width: 75%;
+  }
+  .header .btn {
+    width: 80%;
+    margin: 0 auto;
+    gap: 130px;
+  }
+  .header .btn .theme-toggle {
+    position: relative;
+    top: 1px;
+  }
+  .main .sec-1 #box1 {
+    gap: 15px;
+  }
+  .main .sec-2 .header2 {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 428px) {
   .header {
     flex-direction: column;
     padding: 0;
