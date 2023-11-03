@@ -51,7 +51,7 @@ html body {
 .header .btn {
   display: flex;
   justify-content: space-around;
-  gap: 30px;
+  gap: 30%;
 }
 .header .btn p {
   color: var(--fourth-color);
@@ -76,7 +76,7 @@ html body {
   font-size: 10px;
   background-color: var(--fifth-color);
   color: var(--tertiary-color);
-  width: 80%;
+  width: 90%;
   height: 216px;
   display: flex;
   flex-direction: column;
@@ -309,10 +309,41 @@ html body {
     background-color: var(--height-color);
     width: 85%;
   }
-  .header .btn {
+  .header .btn .theme-toggle {
+    position: relative;
+    top: 1px;
+  }
+  .main .sec-1 #box1 {
+    gap: 15px;
+  }
+  .main .sec-2 .header2 {
+    font-size: 14px;
+  }
+  .main .sec-2 #fcset1 .contDiv {
     width: 95%;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .header {
+    flex-direction: column;
+    padding: 0;
+  }
+  .header .logo {
+    line-height: 0.5rem;
+    width: 80%;
     margin: 0 auto;
-    gap: 130px;
+  }
+  .header .logo h2 {
+    font-size: 22px;
+  }
+  .header .logo p {
+    font-size: 14px;
+  }
+  .header .divider {
+    margin: 20px auto;
+    height: 1px;
+    background-color: var(--height-color);
+    width: 75%;
   }
   .header .btn .theme-toggle {
     position: relative;
@@ -321,14 +352,8 @@ html body {
   .main .sec-1 #box1 {
     gap: 15px;
   }
-  .main .sec-1 #box1 .newDiv {
-    width: 95%;
-  }
   .main .sec-2 .header2 {
     font-size: 14px;
-  }
-  .main .sec-2 #fcset1 .contDiv {
-    width: 95%;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -352,11 +377,6 @@ html body {
     height: 1px;
     background-color: var(--height-color);
     width: 75%;
-  }
-  .header .btn {
-    width: 80%;
-    margin: 0 auto;
-    gap: 130px;
   }
   .header .btn .theme-toggle {
     position: relative;
@@ -390,11 +410,6 @@ html body {
     height: 1px;
     background-color: var(--height-color);
     width: 75%;
-  }
-  .header .btn {
-    width: 80%;
-    margin: 0 auto;
-    gap: 130px;
   }
   .header .btn .theme-toggle {
     position: relative;
@@ -430,9 +445,8 @@ html body {
     width: 75%;
   }
   .header .btn {
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
-    gap: 130px;
   }
   .header .btn .theme-toggle {
     position: relative;

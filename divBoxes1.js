@@ -36,4 +36,4 @@ fetchDataFromJSON();
   
   
   
-  
+  document.body.addEventListener
