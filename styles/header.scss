@@ -1,0 +1,36 @@
+.header {
+    // background-color: red;
+    width: 96%;
+    margin: 0 auto;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+    .logo {
+      line-height: 0.1rem;
+      h2 {
+        font-size: 30px;
+        color: var(--tertiary-color);
+      }
+      p {
+        color: var(--fourth-color);
+      }
+    }
+  
+    .btn {
+      width: 13%;
+      display: flex;
+      justify-content: space-around;
+  
+      p {
+        color: var(--fourth-color);
+      }
+      .theme-toggle {
+        position: relative;
+        top: -8px;
+        cursor: pointer;
+        background: none;
+        border: none;
+      }
+    }
+  }

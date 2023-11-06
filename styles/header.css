@@ -1,0 +1,33 @@
+.header {
+  width: 96%;
+  margin: 0 auto;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+.header .logo {
+  line-height: 0.1rem;
+}
+.header .logo h2 {
+  font-size: 30px;
+  color: var(--tertiary-color);
+}
+.header .logo p {
+  color: var(--fourth-color);
+}
+.header .btn {
+  width: 13%;
+  display: flex;
+  justify-content: space-around;
+}
+.header .btn p {
+  color: var(--fourth-color);
+}
+.header .btn .theme-toggle {
+  position: relative;
+  top: -8px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}/*# sourceMappingURL=header.css.map */
